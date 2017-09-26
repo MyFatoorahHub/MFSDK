@@ -1,6 +1,8 @@
 
 # Introduction
+Those building new integrations should consider using  MyFatoorah, which is the easiest way to accept Knet, credit cards, and many other MyFatoorah payment methods.
 
+The MFSDK makes it easy to add MyFatoorah payments to mobile apps.
 
 # Prerequisites
 You will need a [My Fatoorah](https://myfatoorah.com) account.
@@ -27,9 +29,12 @@ Developers can also edit the plist directly by adding NSAppTransportSecurity key
     ![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
     ![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
 
-2. Add below code in didFinishLaunchingWithOptions method
+2. Import framework in AppDelegate
+```
+import MFSDK
+```
 
-
+3. Add below code in didFinishLaunchingWithOptions method
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

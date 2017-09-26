@@ -21,13 +21,14 @@ One of the changes in iOS9 is a default setting that requires apps to make netwo
 ```
 Developers can also edit the plist directly by adding NSAppTransportSecurity key of dictionary type with the parameters: NSAllowsArbitraryLoads, NSAllowsArbitraryLoadsForMedia and NSAllowsArbitraryLoadsInWebContent set to true.
 
+# Usage
 1. ![Setp 1](/relative/path/to/img.jpg?raw=true "Optional Title")
 2. ![Setp 2](/relative/path/to/img.jpg?raw=true "Optional Title")
 3. ![Setp 3](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 4. Add below code in didFinishLaunchingWithOptions method
 
-![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
+
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

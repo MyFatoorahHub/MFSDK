@@ -23,10 +23,9 @@ Developers can also edit the plist directly by adding NSAppTransportSecurity key
 
 # Usage
 1. Add MFSDK in your projects
-
-    -![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
-    -![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
-    -![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
+    ![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
+    ![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
+    ![Screenshot](https://s9.postimg.org/n92phj9tr/DSC_0155.jpg)
 
 2. Add below code in didFinishLaunchingWithOptions method
 

@@ -63,6 +63,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 - Xcode 8 and iOS SDK 11
 - iOS 8.0+ target deployment
-- armv7, armv7s, and arm64 devices, and the simulator (not armv6)
+- armv7, armv7s, and arm64 devices,
+- simulator (not i386 and x86_64)
 - iPhone and iPad of all sizes and resolutions
  

@@ -40,19 +40,19 @@ import MFSDK
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        MFSettings.sharedInstance.setMerchantWithMerchantCode(merchantCode: "23456790", 
-                                                              merchantName: "MerchantName", 
-                                                              merchantUserName: "MerchantUserName",
-                                                              merchantPassword: "MerchantPassword",
-                                                              merchantReferenceID: "MerchantReferenceID",
-                                                              merchantReturnURL: "merchantReturnURL",
-                                                              merchantMerchantErrorUrl: "merchantMerchantErrorUrl", 
-                                                              udf1: "", 
-                                                              udf2: "",
-                                                              udf3: "", 
-                                                              udf4: "", 
-                                                              udf5: "", 
-                                                              isTestMode: true)
+         MFSettings.sharedInstance.setMerchantWithMerchantCode(merchantCode: "23456790", 
+                                                               merchantName: "MerchantName", 
+                                                               merchantUserName: "MerchantUserName", 
+                                                               merchantPassword: "MerchantPassword", 
+                                                               merchantReferenceID: "MerchantReferenceID",
+                                                               merchantReturnURL: "www.google/thankyou.html", 
+                                                               merchantErrorUrl: "www.google/error.html", 
+                                                               udf1: "", 
+                                                               udf2: "", 
+                                                               udf3: "", 
+                                                               udf4: "", 
+                                                               udf5: "", 
+                                                               isTestMode: true)
         return true
     }
 ```

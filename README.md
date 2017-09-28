@@ -25,9 +25,9 @@ Developers can also edit the plist directly by adding NSAppTransportSecurity key
 
 # Usage
 1. Add MFSDK in your projects
-    ![Screenshot](http://test.myfatoorah.com/mfsdk/setup-1.png)
-    ![Screenshot](http://test.myfatoorah.com/mfsdk/setup-2.png)
-    ![Screenshot](http://test.myfatoorah.com/mfsdk/setup-3.png)
+    ![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%201.png)
+    ![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%202.png)
+    ![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%203.png)
 
 2. Import framework in AppDelegate
 ```

@@ -80,26 +80,26 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 # Test Cards Details
 1. KNET Test Cards
-    8888880000000001 (any Pin /Expiry) Captured
-    8888880000000002 (any Pin /Expiry) Not Captured
+    - 8888880000000001 (any Pin /Expiry) Captured
+    - 8888880000000002 (any Pin /Expiry) Not Captured
 
 2. MasterCard Test Cards
-    Card No: 5123456789012346 
-    Expiry Date : 05/17
-    CVV: 123
+    - Card No: 5123456789012346 
+    - Expiry Date : 05/17
+    - CVV: 123
 
-    Card No : 5313581000123430
-    Expiry Date : 05/17
-    CVV: 123
+    - Card No : 5313581000123430
+    - Expiry Date : 05/17
+    - CVV: 123
 
 3. Visa Test Cards
-    Card No: 4005550000000001 
-    Expiry Date : 05/17
-    CVV: 123
+    - Card No: 4005550000000001 
+    - Expiry Date : 05/17
+    - CVV: 123
 
-    Card No : 4557012345678902
-    Expiry Date : 05/17
-    CVV: 123
+    - Card No : 4557012345678902
+    - Expiry Date : 05/17
+    - CVV: 123
 
 
 # Requirements
